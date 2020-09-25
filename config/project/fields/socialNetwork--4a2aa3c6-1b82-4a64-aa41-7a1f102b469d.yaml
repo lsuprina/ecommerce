@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 4a11776f-b873-4c45-9544-1db02f716c35
+handle: socialNetwork
+instructions: ''
+name: 'Social network'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:5b0fa002-fde0-43a1-b1b5-005c8dbcdae4'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

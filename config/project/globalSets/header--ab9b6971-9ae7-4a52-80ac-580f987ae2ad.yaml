@@ -1,0 +1,31 @@
+fieldLayouts:
+  f42802bc-0049-46d6-8cac-618982dd5bb4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 070cafe1-f343-48af-ab03-44b1d4a005c2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Basic information'
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 4a2aa3c6-1b82-4a64-aa41-7a1f102b469d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Social networks'
+        sortOrder: 2
+handle: header
+name: Header
