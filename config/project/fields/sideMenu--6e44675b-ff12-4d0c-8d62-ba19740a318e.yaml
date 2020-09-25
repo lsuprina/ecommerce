@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 4a11776f-b873-4c45-9544-1db02f716c35
+handle: sideMenu
+instructions: ''
+name: 'Side menu'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_sidemenu}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,71 @@
+field: 6e44675b-ff12-4d0c-8d62-ba19740a318e
+fieldLayouts:
+  46ef3aeb-3cbd-4fee-abb8-1e61b891744b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9c08db19-cea7-4551-a3c4-51a6b124f33d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: da72e4f9-c04d-46cd-93b1-61abd7074cdc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  9c08db19-cea7-4551-a3c4-51a6b124f33d:
+    contentColumnType: string
+    fieldGroup: null
+    handle: pageEntry
+    instructions: ''
+    name: 'Page entry'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources:
+        - singles
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  da72e4f9-c04d-46cd-93b1-61abd7074cdc:
+    contentColumnType: text
+    fieldGroup: null
+    handle: pageIcon
+    instructions: 'Choose an icon on the Font Awesome website (https://fontawesome.com/) and copy the class name of the chosen icon.'
+    name: 'Page icon'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: menuNavigation
+name: 'Menu navigation'
+sortOrder: 1

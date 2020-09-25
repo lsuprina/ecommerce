@@ -38,16 +38,20 @@
       </li>
       <!-- Search Form -->
 
+<!-- menu field (supertable) -->
+
       <!-- Side navigation links -->
       <li>
         <ul class="collapsible collapsible-accordion">
-          <li>
-            <a class="collapsible-header waves-effect arrow-r">
-              <i class="fas fa-shopping-cart"></i> Cart page
+        {% for page in header.sideMenu.all() %}
+        {{page.pageEntry.section.type}}
+            <li>
+            <a class="collapsible-header waves-effect arrow-r" href="{{page.pageEntry.one().uri}}">
+              <i class="{{page.pageIcon}}"></i>{{page.pageEntry.one().title}}
               <i class="fas fa-angle-down rotate-icon"></i>
             </a>
 
-            <div class="collapsible-body">
+            <!--div class="collapsible-body">
               <ul>
                 <li>
                   <a href="../cart/cart-v1.html" class="waves-effect">Cart V.1</a>
@@ -57,8 +61,10 @@
                   <a href="../cart/cart-v2.html" class="waves-effect">Cart V.2</a>
                 </li>
               </ul>
-            </div>
+            </div-->
           </li>
+        {% endfor %}
+          
 
           <li>
             <a class="collapsible-header waves-effect arrow-r">
